@@ -7,11 +7,10 @@ const CustomAvatar= ()=>{
             <Avatar
                 rounded
                 size={200}
-                activeOpacity={0.7}
                 containerStyle={{ marginLeft: 75, marginTop: 50}}
                 source={{
                     uri:
-                    'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+                    'https://reactnativeelements.com/img/avatar/avatar--photo.jpg',
                 }}
             />
 

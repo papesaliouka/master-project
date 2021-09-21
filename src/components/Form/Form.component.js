@@ -14,7 +14,7 @@ const CustomForm = ()=>{
             <CustomButton title={'Sign In'} icon/>
             <CustomButton type={'clear'} title={'Sign Up'}/>
             <View style={styles.spacer}></View>
-            <CustomButton type={'clear'} title={'Join the Wash Mob'}/>
+            <CustomButton type={'clear'} title={'Join Us'}/>
         </>
     );
 }
