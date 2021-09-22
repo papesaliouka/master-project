@@ -4,11 +4,11 @@ import CustomButton from '../Button/Button.component';
 import { Card } from 'react-native-elements';
 import {View, StyleSheet} from 'react-native';
 
-const CustomForm = ()=>{
+const SignInForm = ()=>{
     return (
         <>
             <Card containerStyle={{borderRadius:10, margin:20, marginBottom:20}}>
-                <CustomInput placeholder='USERNAME / EMAIL'/>
+                <CustomInput type={'user'} placeholder='USERNAME / EMAIL'/>
                 <CustomInput type={'lock'} placeholder='PASSWORD'/>
             </Card>
             <CustomButton title={'Sign In'} icon/>
@@ -19,7 +19,7 @@ const CustomForm = ()=>{
     );
 }
 
-export default CustomForm;
+export default SignInForm;
 
 
 const styles= StyleSheet.create({

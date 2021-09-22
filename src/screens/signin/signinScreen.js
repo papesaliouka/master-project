@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, View, StyleSheet } from "react-native";
 import Avatar from '../../components/Avatar/Avatar.component';
-import Form from "../../components/Form/Form.component";
+import SignInForm from "../../components/SignInForm/SignInForm.component";
 import Header from "../../components/Header/Header.component";
 
 const SignInScreen = ()=>{
@@ -9,7 +9,7 @@ const SignInScreen = ()=>{
         <View>
             <Header title={'Sign In'} />
             <Avatar/>
-            <Form/>
+            <SignInForm/>
         </View>
     );
 }

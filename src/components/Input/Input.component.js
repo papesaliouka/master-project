@@ -1,13 +1,14 @@
 import React from "react"
 import {Input} from 'react-native-elements';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/SimpleLineIcons';
 
 
-const CustomInput = ({type='user', placeholder=''})=>{
+const CustomInput = ({type='', placeholder=''})=>{
     return(
         <>
             <Input
-            containerStyle={{height:40, marginBottom:10}}
+            secureTextEntry={ placeholder==='PASSWORD' ? true : false}
+            containerStyle={{height:40, marginVertical:6, }}
             inputStyle={{fontSize:15}}
                 placeholder={placeholder}
                 leftIcon={
