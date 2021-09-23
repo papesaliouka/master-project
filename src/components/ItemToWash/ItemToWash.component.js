@@ -14,9 +14,10 @@ export default ItemToWash;
 
 const style =StyleSheet.create({
     container:{
-        marginTop:24,
+        marginTop:5,
         flexDirection:'row',
         justifyContent:'space-between',
-        alignItems:'center'
+        alignItems:'center',
+        marginHorizontal: 40
     }
 })
